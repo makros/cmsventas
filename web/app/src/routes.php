@@ -1,9 +1,10 @@
 <?php
 
-  use src\Controller\appController;
+use src\Controller\appController;
+use src\Controller\categoriaController;
 
-  // Default Controller an action
-  $controller = 'app';
+// Default Controller an action
+  $controller = 'categoria';
   $action = 'index';
 
   if (isset($_GET['controller']) && isset($_GET['action'])) {
@@ -13,7 +14,8 @@
 
   /* **DEFINICIÓN DE CONTROLADORES Y ACCIONES DEL PROYECTO** */
   $controllers = [
-    'app'=>['index']
+    'app'=>['index'],
+    'categoria' => ['index'],
   ];
   /* **FIN DEFINICIÓN DE CONTROLADORES Y ACCIONES DEL PROYECTO** */
 
@@ -25,7 +27,8 @@
         case 'app':
           $controller = new appController();
           break;
-
+        case 'categoria':
+          $controller = new categoriaController();
       }
       //Llamada a la acción del controlador
       $controller->{$action}();

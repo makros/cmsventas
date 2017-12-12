@@ -9,6 +9,10 @@
 namespace src\Controller;
 
 
-class usuarioController {
+class categoriaController {
+
+  public function index(){
+    require_once APP_PATH.'/Views/Categoria/categoria.php';
+  }
 
 }
