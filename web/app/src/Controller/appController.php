@@ -11,6 +11,6 @@ class appController {
   }
 
   public function error(){
-    require_once(APP_PATH.'/Views/error.php');
+    require_once(APP_PATH.'/Views/404.php');
   }
 }
