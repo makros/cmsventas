@@ -23,7 +23,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <link rel="stylesheet" href="dist/css/skins/skin-blue.min.css">
 
   <!-- Datatables -->
-  <link rel="stylesheet" href="bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/jq-3.2.1/dt-1.10.16/af-2.2.2/b-1.5.0/fh-3.1.3/r-2.2.1/datatables.min.css"/>
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -454,8 +454,7 @@ desired effect
 <!-- AdminLTE App -->
 <script src="dist/js/adminlte.min.js"></script>
 <!-- Datatables -->
-<script src="bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
-<script src="bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs/jq-3.2.1/dt-1.10.16/af-2.2.2/b-1.5.0/fh-3.1.3/r-2.2.1/datatables.min.js"></script>
 
 <!-- Custom JS-->
 <script src="scripts/categoria.js"></script>
