@@ -7,7 +7,7 @@ class appController {
   public function __construct(){}
 
   public function index(){
-    echo 'Index desde appController';
+    require_once APP_PATH.'/Views/layout.php';
   }
 
   public function error(){
