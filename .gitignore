@@ -9,6 +9,7 @@ web/app/src/Foo__old.php
 web/app/vendor/
 web/public/bower_components/
 web/public/dist/
+web/public/sistema/
 data/
 
 .env
@@ -24,5 +25,3 @@ nbproject/
 /nbproject/
 /nbproject/private/
 /nbproject/private/private.properties
-web/public/index_old.php
-web/public/sistema/
