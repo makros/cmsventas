@@ -1,0 +1,25 @@
+# Global
+.*.swp
+.DS_Store
+
+# Application
+web/app/composer.json
+web/app/config/database.config.ini
+web/app/src/Foo__old.php
+web/public/bower_components/
+web/public/dist/
+data/
+
+.env
+README.md
+
+
+
+# PHPStorm
+.idea/
+
+# Netbeans
+nbproject/
+/nbproject/
+/nbproject/private/
+/nbproject/private/private.properties
