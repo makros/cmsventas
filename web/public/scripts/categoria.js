@@ -1,9 +1,8 @@
 
   var tabla;
-  var urlSrc = '<?php echo APP_PATH; ?>';
 
   function init() {
-    
+
   }
 
   function limpiar() {
@@ -42,7 +41,7 @@
         "pdf"
       ],
       "ajax" : {
-        url : "../../ajax/categoria.php?op=listar",
+        url : "../../app/src/ajax/categoria.php?op=listar",
         type : "get",
         dataType : "json",
         error : function (e) {
