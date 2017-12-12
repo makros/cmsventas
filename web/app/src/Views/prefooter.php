@@ -22,7 +22,7 @@
       <h3 class="control-sidebar-heading">Recent Activity</h3>
       <ul class="control-sidebar-menu">
         <li>
-          <a href="javascript:;">
+          <a href="javascript:">
             <i class="menu-icon fa fa-birthday-cake bg-red"></i>
 
             <div class="menu-info">
@@ -89,20 +89,11 @@ immediately after the control sidebar -->
 
 <!-- REQUIRED JS SCRIPTS -->
 
-<!-- jQuery 3 -->
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-<!-- Bootstrap 3.3.7 -->
-<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<!-- AdminLTE App -->
-<script src="dist/js/adminlte.min.js"></script>
-<!-- Datatables -->
-<script type="text/javascript"
-        src="https://cdn.datatables.net/v/bs/jq-3.2.1/dt-1.10.16/af-2.2.2/b-1.5.0/fh-3.1.3/r-2.2.1/datatables.min.js"></script>
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" src="bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+  <script type="text/javascript" src="bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+  <script type="text/javascript" src="dist/js/adminlte.min.js"></script>
 
-<!-- Custom JS-->
-<script src="scripts/categoria.js"></script>
-<!-- Optionally, you can add Slimscroll and FastClick plugins.
-     Both of these plugins are recommended to enhance the
-     user experience. -->
-</body>
-</html>
+<!-- /REQUIRED JS SCRIPTS -->
