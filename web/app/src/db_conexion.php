@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Makros
- * Date: 11/12/2017
- * Time: 14:12
- */
 
 namespace src;
 
