@@ -2,7 +2,8 @@
   var tabla;
 
   function init() {
-
+    mostrarForm(false);
+    listar();
   }
 
   function limpiar() {
@@ -15,7 +16,7 @@
     limpiar();
     if (flag) {
       $("#listadoRegistros").hide();
-      $("#formulaioRegistros").show();
+      $("#formularioRegistros").show();
       $("#btnGuardar").prop("disabled", false);
     } else {
       $("#listadoRegistros").show();
